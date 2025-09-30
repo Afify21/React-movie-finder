@@ -1,4 +1,6 @@
  🎬 Movie Search App
+<img width="1452" height="818" alt="image" src="https://github.com/user-attachments/assets/12975d1b-0b60-4499-a29a-523647b0e151" />
+<img width="1348" height="802" alt="image" src="https://github.com/user-attachments/assets/9537df92-04ad-4e4b-aed8-2b0f59facb47" />
 
 A modern React application for discovering movies using the OMDB API. Built with React, Tailwind CSS, and Vite.
 
