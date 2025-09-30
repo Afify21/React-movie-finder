@@ -1,17 +1,92 @@
-# React + Vite
+ 🎬 Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React application for discovering movies using the OMDB API. Built with React, Tailwind CSS, and Vite.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ✨ Features
 
-## React Compiler
+- 🔍 **Real-time movie search** with debounced input
+- 🔥 **Trending movies section** 
+- 📱 **Responsive design** - works on all devices
+- ⚡ **Fast loading** with Vite build tool
+- 🎨 **Beautiful UI** with Tailwind CSS
+- 🔄 **Loading states** and error handling
+- 🎭 **Movie details** including posters, year, and type
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ 🚀 Live Demo
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# React-movie-finder
+
+ 🛠️ Built With
+
+- React - JavaScript library for building user interfaces
+- Tailwind CSS - Utility-first CSS framework
+- Vite - Fast build tool and development server
+- OMDB API - Movie database API
+
+🏃‍♂️ Running Locally
+
+1. Clone the repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/movie-search-app.git
+cd movie-search-app
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start development server:
+```bash
+npm run dev
+```
+
+4. Open http://localhost:5173 in your browser
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+│   ├── MovieCard.jsx      # Individual movie display
+│   ├── Search.jsx         # Search input component
+│   └── Spinner.jsx        # Loading animation
+├── App.jsx                # Main application component
+├── main.jsx              # React entry point
+└── index.css             # Global styles
+```
+
+ 🎯 Key Features Implemented
+
+ Search Functionality
+- Debounced search to prevent excessive API calls
+- Real-time results as you type
+- Error handling for failed requests
+
+ Movie Display
+- Grid layout responsive to screen size
+- Movie posters with fallback images
+- Movie details (title, year, type)
+- Loading states during API calls
+
+ User Experience
+- Clean, modern interface
+- Smooth animations and transitions
+- Mobile-friendly responsive design
+- Accessibility features
+
+ 🔧 API Integration
+
+This app uses the [OMDB API](http://www.omdbapi.com/) to fetch movie data. The API provides:
+- Movie search by title
+- Detailed movie information
+- High-quality movie posters
+- IMDB ratings and details
+
+ 🚀 Deployment
+
+The app can be easily deployed to:
+- **Vercel** - `npm run build` then drag/drop dist folder
+- **Netlify** - Connect GitHub repo for automatic deployments
+- **GitHub Pages** - Use gh-pages for static hosting
